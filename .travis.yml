@@ -1,7 +1,17 @@
 language: node_js
+sudo: false
 node_js:
-  - "0.8"
+  - '0.10.33'
+
+cache:
+  directories:
+    - node_modules
+    - bower_components
+
 before_script:
-  - npm update -g npm
-  - npm install -g grunt-cli
-install: npm install
+  - 'npm install -g bower karma grunt-cli jshint'
+  - 'npm install' # install npm packages
+  - 'bower install' # install bower packages
+
+after_script:
+  - 'grunt' # or other command for build, run tests, etc
