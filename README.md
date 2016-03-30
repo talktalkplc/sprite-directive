@@ -11,5 +11,5 @@ regardless of how we're choosing to deliver it.
 ## Use
 
 ```html
-<sprite img=".your-sprite" alt="Text that conveys the meaning of the image"></sprite>
+<sprite img="your-sprite-class" alt="Text that conveys the meaning of the image"></sprite>
 ```
