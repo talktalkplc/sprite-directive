@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/talktalkplc/sprite-directive/badges/gpa.svg)](https://codeclimate.com/github/talktalkplc/sprite-directive)
+
 # Sprite Directive
 
 Our sprite directive is compatible with the standard background-image sprite
