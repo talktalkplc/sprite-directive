@@ -1,4 +1,5 @@
 [![Code Climate](https://codeclimate.com/github/talktalkplc/sprite-directive/badges/gpa.svg)](https://codeclimate.com/github/talktalkplc/sprite-directive)
+[![Build Status](https://travis-ci.org/talktalkplc/sprite-directive.svg?branch=master)](https://travis-ci.org/talktalkplc/sprite-directive)
 
 # Sprite Directive
 
