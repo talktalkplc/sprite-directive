@@ -2,7 +2,7 @@ module.exports = function (grunt) {
     'use strict';
 
     grunt.initConfig({
-        
+
         jshint: {
             options: {
                 jshintrc: '.jshintrc',
@@ -31,10 +31,12 @@ module.exports = function (grunt) {
     });
 
     // Load tasks
-    require('load-grunt-tasks')(grunt);
+    grunt.loadNpmTasks('grunt-jscs');
+    grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-karma');
 
-    grunt.registerTask('js', ['jshint', 'jscs', 'html2js']);
-    grunt.registerTask('test', ['wiredep:karmaConf', 'karma:unit']);
+
+    grunt.registerTask('test', ['jshint', 'jscs', 'karma:unit']);
 
 
 
