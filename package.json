@@ -17,6 +17,9 @@
     "url": "https://github.com/talktalkplc/sprite-directive/issues"
   },
   "homepage": "https://github.com/talktalkplc/sprite-directive#readme",
+  "scripts": {
+    "test": "grunt test"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "load-grunt-tasks": "^3.4.0",
