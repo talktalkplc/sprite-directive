@@ -1,0 +1,45 @@
+{
+  "node": true,
+  "curly": false,
+  "eqnull": true,
+  "eqeqeq": true,
+  "undef": true,
+  "trailing": true,
+  "jquery": true,
+  "browser": true,
+  "devel": true,
+  "maxparams":6,
+  "maxdepth": 3,
+  "quotmark": "single",
+
+  "globals": {
+    "jQuery": false,
+    "angular": false,
+    "CDN": false,
+    "Modernizr": false,
+    "CryptoJS": false,
+    "core": false,
+    "Swiper": false,
+    "env": false,
+    "googletag": false,
+    // GruntFile
+    "module": false,
+    "require": false,
+    "middlewares": false,
+    // Jasmine
+    "describe": false,
+    "ddescribe": false,
+    "fdescribe": false,
+    "xdescribe": false,
+    "it": false,
+    "iit": false,
+    "fit": false,
+    "xit": false,
+    "expect": false,
+    "inject": false,
+    "spyOn": false,
+    "beforeEach": false,
+    "afterEach": false,
+    "mockData": true
+  }
+}

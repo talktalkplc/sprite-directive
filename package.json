@@ -1,0 +1,36 @@
+{
+  "name": "sprite-directive",
+  "version": "1.0.0",
+  "description": "Make sprites accessible using this simple directive",
+  "main": "src/*.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talktalkplc/sprite-directive.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "Sprite"
+  ],
+  "author": "Jim Drury <jim.drury@talktalkplc.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talktalkplc/sprite-directive/issues"
+  },
+  "homepage": "https://github.com/talktalkplc/sprite-directive#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "load-grunt-tasks": "^3.4.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jscs": "^2.4.0",
+    "grunt-karma": "^0.12.1",
+    "jasmine-core": "^2.1.3",
+    "karma": "^0.13.21",
+    "karma-coverage": "^0.5.3",
+    "karma-jasmine": "^0.3.4",
+    "karma-junit-reporter": "^0.3.8",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.24",
+    "karma-story-reporter": "^0.3.1",
+    "phantomjs-prebuilt": "^2.1.4"
+  }
+}
