@@ -73,7 +73,7 @@ module.exports = function (config) {
             useBrowserName: false
         },
 
-        coverageReporter:
+        coverageReporter: {
             instrumenterOptions: {
                 istanbul: { noCompact: true }
             },
