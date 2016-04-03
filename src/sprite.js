@@ -7,7 +7,7 @@ angular.module('app.directives.sprite', ['APP/sprite/html/sprite.html'])
             replace: true,
             scope: {
                 img: '@',
-                alt: '@',
+                alt: '@'
             },
             templateUrl: 'APP/sprite/html/sprite.html',
             controller: ['$scope', '$log', function ($scope, $log) {

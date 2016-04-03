@@ -27,7 +27,7 @@ module.exports = function (grunt) {
                 fix: true,
                 requireCurlyBraces: ['if']
             }
-        },
+        }
     });
 
     // Load tasks
