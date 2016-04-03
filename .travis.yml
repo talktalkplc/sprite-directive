@@ -9,6 +9,13 @@ cache:
     - bower_components
 
 before_script:
-  - 'npm install -g bower karma grunt-cli jshint'
+  - 'npm install -g bower karma grunt-cli jshint codeclimate-test-reporter'
   - 'npm install' # install npm packages
   - 'bower install' # install bower packages
+
+after_script:
+  - 'CODECLIMATE_REPO_TOKEN=b034e793c4e05b7ec8c406160767633f54ee5c95061b5aaf8de89c39df009bea codeclimate-test-reporter < tests/test-reports/lcov.info'
+
+addons:
+    code_climate:
+        repo_token: b034e793c4e05b7ec8c406160767633f54ee5c95061b5aaf8de89c39df009bea
