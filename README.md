@@ -1,4 +1,6 @@
 [![Code Climate](https://codeclimate.com/github/talktalkplc/sprite-directive/badges/gpa.svg)](https://codeclimate.com/github/talktalkplc/sprite-directive)
+[![Test Coverage](https://codeclimate.com/github/talktalkplc/sprite-directive/badges/coverage.svg)](https://codeclimate.com/github/talktalkplc/sprite-directive/coverage)
+[![Issue Count](https://codeclimate.com/github/talktalkplc/sprite-directive/badges/issue_count.svg)](https://codeclimate.com/github/talktalkplc/sprite-directive)
 [![Build Status](https://travis-ci.org/talktalkplc/sprite-directive.svg?branch=master)](https://travis-ci.org/talktalkplc/sprite-directive)
 
 # Sprite Directive
