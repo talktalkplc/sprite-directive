@@ -64,7 +64,7 @@ module.exports = function (config) {
         reporters: ['coverage', 'junit', 'story'],
 
         preprocessors: {
-            'js/*.js': ['coverage']
+            'src/*.js': ['coverage']
         },
 
         junitReporter: {
@@ -83,7 +83,7 @@ module.exports = function (config) {
                 { type: 'html', dir: 'test-reports/', subdir: '.' },
                 { type: 'text' },
                 { type: 'text-summary' },
-                { type: 'lcovonly', dir: 'tests/test-reports/', subdir: '.',  file: 'lcov.info'}
+                { type: 'lcovonly', dir: 'test-reports/', subdir: '.',  file: 'lcov.info'}
             ]
         }
 
